@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #7CAAF8;
+    color: #150E3E;
+}
+.dark{
+    background-color: #073483;
+    color: #C8C1F1;
+  }
+nav{
+    font-family: "Italiana", sans-serif;
+}
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    font-size: large;
+    padding: 25px;
+}
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+  
+  /* Hide default HTML checkbox */
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  /* The slider */
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ECEBF9;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: #150E3E;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+input:checked + .slider {
+    background-color: #150E3E;
+  }
+
+  
+input:focus + .slider {
+    box-shadow: 0 0 1px #150E3E;
+  }
+  
+input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+    background-color: #C8C1F1;
+  }
+  
+  /* Rounded sliders */
+.slider.round {
+    border-radius: 34px;
+  }
+  
+.slider.round:before {
+    border-radius: 50%;
+  }
+  
+#first_section{
+  display: flex;
+  justify-content: center;
+  padding: 1.25rem 1.5rem 1.5rem 1.5rem;
+}
+#perfil{
+  display: flex;
+  width: 25%;
+justify-content: center;
+flex-direction: column;
+position: absolut ;
+
+}
+#perfil>img{
+  width: 65%;
+  border-radius: 15%;
+}
+#redes{
+  display: flex;
+  justify-content: space-between;
+  padding-right: 35%;
+  padding-top: 10%;
+  position: relative;
+  left: 0;
+}
+#redesImg>img {
+  width: 90%;
+  border-radius: 25%;
+}
+#divdop01{
+  display: flex;
+  width: 25%;
+justify-content: center;
+}
+#p01{
+    text-align: justify;
+}

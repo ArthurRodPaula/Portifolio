@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Italiana&display=swap"
+      rel="stylesheet"
+    />
+    <title>PORTFÓLIO Arthur Rodrigues</title>
+    <script>
+    function myFunction() {
+    var element = document.body;
+    element.classList.toggle("dark");
+  }
+  </script>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li>PORTFÓLIO</li>
+        <li>SOBRE</li>
+        <li>PROJETOS</li>
+        <li>CONHECIMENTOS</li>
+        <li>
+          <!-- Rounded switch -->
+          <label class="switch">
+            <input type="checkbox" onclick="myFunction()"/>
+            <span class="slider round"></span>
+          </label>
+        </li>
+      </ul>
+    </nav>
+    <section id="first_section">
+      <div id="perfil">
+        <img src="perfil.png" alt="" />
+        <div id="redes">
+            <div class="redesImg"><a href="https://www.linkedin.com/in/arthur-rodrigues-9313ba2b3/" target="_blank" id="redesImg"><img src="image 1.png" alt=""></a></div>
+            <div  class="redesImg"><a href="https://github.com/ArthurRodPaula" target="_blank"id="redesImg"> <img src="image 2.png" alt=""></a></div>
+        </div>
+      </div>
+      <div id="divdop01">
+        <p id="p01">
+          Sou o Arthur Rodrigues de Paula, 17 anos, moro em Belo Horizonte-MG e
+          sou estudante do colégio Cotemig e Desenvolvedor Front-End.
+        </p>
+      </div>
+    </section>
+  </body>
+</html>
