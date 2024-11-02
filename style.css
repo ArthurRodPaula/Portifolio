@@ -201,6 +201,8 @@ input:checked + .slider:before {
   #redesImg > img {
     width: 100%;
     border-radius: 25%;
+    max-width: 64px;
+    max-height: 64px;
   }
   #divdop01 {
     display: grid;
