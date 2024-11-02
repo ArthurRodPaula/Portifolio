@@ -97,7 +97,7 @@ input:checked + .slider:before {
 .mobile-menu {
   display: none;
 }
-@media (max-width: 900px) {
+@media (max-width: 1024px) {
   nav {
     margin-top: 2rem;
   }
@@ -176,7 +176,7 @@ input:checked + .slider:before {
   padding: 1.25rem 1.5rem 1.5rem 1.5rem;
   font-size: x-large;
 }
-@media (max-width: 900px) {
+@media (max-width: 1024px) {
   #first_section {
     display: flex;
     flex-direction: column;
