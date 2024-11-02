@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="respons.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Italiana&display=swap"
+      rel="stylesheet" />
+    <script src="script.js"></script>
+    <title>PORTFÓLIO Arthur Rodrigues</title>
+  </head>
+  <body>
+    <nav>
+      <ul class="nav-list">
+        <li class="mobile-menu-icon img-container">
+          <button onclick="menuShow()">
+            <img
+              class="icon"
+              src="Menu.svg"
+              alt=""
+              style="height: 36px; width: 36px" />
+          </button>
+        </li>
+        <li><h3>PORTFÓLIO</h3></li>
+        <li class="nav-item"><a href="#first_section">SOBRE</a></li>
+        <li class="nav-item"><a href="#conhecimentos">CONHECIMENTOS</a></li>
+        <li class="nav-item">PROJETOS</li>
+        <li>
+          <!-- Rounded switch -->
+          <label class="switch">
+            <input type="checkbox" onclick="myFunction()" />
+            <span class="slider round"></span>
+          </label>
+        </li>
+      </ul>
+
+      <div class="mobile-menu">
+        <ul class="nav-list">
+          <li class="mobile-nav-item"><a href="#first_section">SOBRE</a></li>
+          <li class="mobile-nav-item">
+            <a href="#conhecimentos">CONHECIMENTOS</a>
+          </li>
+          <li class="mobile-nav-item">PROJETOS</li>
+        </ul>
+      </div>
+    </nav>
+    <section id="first_section">
+      <div id="perfil">
+        <img src="perfil.png" alt="" style="max-width: 100%" />
+        <div id="redes">
+          <div class="redesImgage">
+            <a
+              href="https://www.linkedin.com/in/arthur-rodrigues-9313ba2b3/"
+              target="_blank"
+              class="img-container"
+              ><img
+                class="icons"
+                src="image 1.png"
+                alt=""
+                onMouseover="src='image 1.png'"
+                onMouseout="src='image 1.png'"
+            /></a>
+          </div>
+          <div class="redesImgage">
+            <a
+              href="https://github.com/ArthurRodPaula"
+              target="_blank"
+              class="img-container">
+              <img
+                class="icons"
+                src="image 2.png"
+                alt=""
+                onMouseover="src='image 2.png'"
+                onMouseout="src='image 2.png'"
+            /></a>
+          </div>
+        </div>
+      </div>
+
+      <div id="divdop01">
+        <p id="p01">
+          Meu nome é Arthur Rodrigues de Paula, 17 anos, moro em Belo
+          Horizonte-MG e sou estudante do Colégio Cotemig onde faço o curso
+          técnico em Desenvolvimento de Softwares e Tecnico em Informática.
+        </p>
+      </div>
+    </section>
+
+    <section id="conhecimentos">
+      <div id="cnhc-title">
+        <h3>Conhecimentos</h3>
+      </div>
+      <div class="cnh-icons">
+        <div id="html-img" class="resp"><img src="HTMl.png" alt="" /></div>
+        <div id="css-img" class="resp"><img src="CSS.png" alt="" /></div>
+        <div id="js-img" class="resp"><img src="Js.png" alt="" /></div>
+      </div>
+      <div id="cnh-lbl">
+        <div id="html-lbl">
+          <h4>Estudo e faço Projetos utilizando HTML a 11 Meses</h4>
+        </div>
+        <div id="css-lbl">
+          <h4>Estudo e faço Projetos utilizando CSS a 11 Meses</h4>
+        </div>
+        <div id="js-lbl">
+          <h4>Estudo e faço Projetos utilizando JS a 3 Meses</h4>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
