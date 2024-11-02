@@ -13,6 +13,10 @@ body {
   background-color: #073483;
   color: #c8c1f1;
 }
+a {
+  text-decoration: none;
+  color: #150e3e;
+}
 nav {
   margin-top: 1rem;
 }
@@ -142,12 +146,12 @@ input:checked + .slider:before {
   padding: 1.25rem 1.5rem 1.5rem 1.5rem;
   justify-content: center;
   margin: auto;
-  margin-top: 8rem;
+  margin-top: 6rem;
   gap: 8rem;
 }
 
 #perfil > img {
-  width: 24rem;
+  width: 18rem;
   border-radius: 15%;
 }
 #redes {
@@ -156,10 +160,7 @@ input:checked + .slider:before {
   padding-right: 0;
   padding-top: 10%;
 }
-#redesImg > img {
-  width: 90%;
-  border-radius: 25%;
-}
+
 #redesImg > img {
   width: 100%;
   border-radius: 25%;
@@ -167,7 +168,7 @@ input:checked + .slider:before {
 
 #divdop01 {
   display: flex;
-  width: 25%;
+  width: 28%;
   justify-content: center;
 }
 #p01 {
